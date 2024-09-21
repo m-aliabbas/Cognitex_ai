@@ -1,0 +1,248 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.mainDiv {
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.textDiv {
+    width: 100%;
+    max-width: 50%;
+    min-width: 320px;
+    /* background: #633535; */
+}
+
+.heading {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+
+.textDiv p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.timerDiv {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 0px;
+}
+
+.sizeDiv {
+    scale: 1.1;
+}
+
+.spanText{
+   font-size: 18px;
+    margin: 0px;
+    padding-top: 10px;
+    margin-left: -24px !important;
+}
+
+.phone{
+    scale: 0.7;
+    margin-top: -160px !important;
+    margin-bottom: -160px !important;
+
+}
+
+.phoneIn {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50.2%, -50%);
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .heading {
+        font-size: 36px ;
+        font-weight: 700;
+        line-height: 60px;
+        margin-bottom: 5px;
+    }
+    
+    .textDiv p {
+        font-size: 12px ;
+        line-height: 18px ;
+    }
+
+    .timerDiv {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 400px;
+        scale: 0.8;
+        padding: 10px 0px;
+    }
+    
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        justify-content: space-around;
+    }
+
+    .sizeDiv {
+        scale: 0.7;
+    }
+
+    .textDiv {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        width: 100%;
+        max-width: 80%;
+        min-width: 320px;
+        /* background: #633535; */
+        margin-top: 50px;
+    }
+
+    .phone{
+        scale: 0.5;
+        margin-top: -160px !important;
+        margin-bottom: -160px !important;
+    
+    }
+
+}
+
+@media (min-width: 440px) and (max-width: 767px) {
+
+    .heading {
+        font-size: 36px ;
+        font-weight: 700;
+        line-height: 60px;
+        margin-bottom: 5px;
+    }
+    
+    .textDiv p {
+        font-size: 12px ;
+        line-height: 20px ;
+    }
+
+    .timerDiv {
+        margin-top: 30px;
+        width: 100%;
+        max-width: 400px;
+        scale: 0.9;
+        padding: 10px 0px;
+    }
+    
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        justify-content: space-around;
+    }
+
+    .sizeDiv {
+        scale: 0.8;
+    }
+
+    .textDiv {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        width: 100%;
+        max-width: 80%;
+        min-width: 320px;
+        /* background: #633535; */
+        margin-top: 50px;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 1050px) {
+
+
+    .heading {
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 60px;
+        margin-bottom: 5px;
+    }
+    
+    .textDiv p {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .timerDiv {
+        margin-top: 30px;
+        width: 100%;
+        max-width: 400px;
+        padding: 10px 0px;
+    }
+    
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        justify-content: space-around;
+    }
+
+    .sizeDiv {
+        scale: 1;
+    }
+
+    .textDiv {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        width: 100%;
+        max-width: 80%;
+        min-width: 320px;
+        /* background: #633535; */
+        margin-top: 50px;
+    }
+
+    .phone{
+        scale: 0.6;
+        margin-top: -100px !important;
+        margin-bottom: -100px !important;
+    
+    }
+    
+}
+
+@media (min-width: 1050px) and (max-width: 1350px) {
+
+    .sizeDiv {
+        scale: 1;
+    }
+    .timerDiv {
+    max-width: 450px;
+        padding: 10px 0px;
+    }
+
+}
+
+
+@media (min-width: 1350px) and (max-width: 4000px) {
+
+    .sizeDiv {
+        scale: 1.1;
+    }
+
+    .textDiv p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+}
