@@ -9,8 +9,16 @@ import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern";
 import TypingAnimation from "@/components/magicui/typing-animation";
 import OrbitingCircles from "@/components/magicui/orbiting-circles";
 import "./herosection.css"
+
+interface TimeLeft {
+  days?: number;
+  hours?: number;
+  minutes?: number;
+  seconds?: number;
+}
+
 export default function HeroSection() {
-  const [timeLeft, setTimeLeft] = useState({});
+  const [timeLeft, setTimeLeft] = useState<TimeLeft>({});
   const [expired, setExpired] = useState(false);
 
   useEffect(() => {
