@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import Iphone15Pro from "@/components/magicui/iphone-15-pro";
 import HeroVideoDialog from "@/components/magicui/hero-video-dialog";
@@ -49,13 +49,13 @@ export default function HeroSection() {
         <ShootingStars />
         <div className=" textDiv ">
 
-          <TypingAnimation
-            className=" heading"
-            text="Comming Soon!"
-          />
+        <TypingAnimation
+  className="heading"
+  text="We&apos;re coming soon!"
+/>
 
 
-          <p>We're working hard to bring you an amazing experience, ensuring every detail meets your highest expectations and delivers exceptional quality.</p>
+          <p>Were working hard to bring you an amazing experience, ensuring every detail meets your highest expectations and delivers exceptional quality.</p>
 
 
 
